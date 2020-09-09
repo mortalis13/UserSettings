@@ -1,0 +1,5 @@
+<snippet>
+  <content><![CDATA[if $0 then]]></content>
+  <tabTrigger>if</tabTrigger>
+  <scope>source.pascal</scope>
+</snippet>

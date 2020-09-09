@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+try{
+  $SELECTION
+}
+catch(Exception e){
+  e.printStackTrace();
+}]]></content>
+  <tabTrigger>tryc</tabTrigger>
+  <scope>source.java</scope>
+</snippet>

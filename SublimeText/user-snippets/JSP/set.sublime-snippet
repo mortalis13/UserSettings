@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<c:set var="${1:name}" value="${2:value}" />
+]]></content>
+	<tabTrigger>cset</tabTrigger>
+	<scope>text.html,text.html.jsp</scope>
+	<description>JSP/JSTL set</description>
+</snippet>

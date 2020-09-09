@@ -1,0 +1,314 @@
+[
+    {
+        "command": "run_python_in_shell",
+        "caption": "Run Python In Shell"
+    },
+    {
+        "command": "reduce_indent",
+        "caption": "Reduce Indent"
+    },
+    {
+        "command": "clone_file_scroll_line",
+        "caption": "Clone File Scroll Line"
+    },
+    {
+        "command": "test_action",
+        "caption": "[Test Command]"
+    },
+    {
+        "command": "create_plugin",
+        "caption": "Create Plugin"
+    },
+    {
+        "command": "view_as_hex",
+        "caption": "View As Hex"
+    },
+    {
+        "command": "open_file", "args": {"file": "C:/Users/rhudz/AppData/Roaming/Sublime Text 3/Packages/User/ADBView.sublime-settings"},
+        "caption": "ADBView Settings"
+    },
+    {
+        "command": "convert_time_intervals",
+        "caption": "Convert Time Intervals"
+    },
+    {
+        "command": "remove_opened_files",
+        "caption": "Remove Opened Files"
+    },
+    {
+        "command": "find_opened_filename_in_project",
+        "caption": "Find Opened Filename In Project"
+    },
+    {
+        "command": "create_files_from_clipboard",
+        "caption": "Create Files From Clipboard"
+    },
+    {
+        "command": "generate_model_from_entity",
+        "caption": "Generate Model From Entity"
+    },
+    {
+        "command": "add_selection_aside",
+        "caption": "Add Selection Aside"
+    },
+    {
+        "command": "temp_gen_vivarchi_mapping",
+        "caption": "Temp Gen Vivarchi Mapping"
+    },
+    {
+        "command": "generate_hibernate_entity",
+        "caption": "Generate Hibernate Entity"
+    },
+    {
+        "command": "get_open_tabs_path",
+        "caption": "Get Open Tabs Path"
+    },
+    {
+        "command": "open_path_doublecmd",
+        "caption": "Open Path Doublecmd"
+    },
+    {
+        "command": "show_scope",
+        "caption": "Show Scope"
+    },
+    {
+        "command": "convert_sql",
+        "caption": "Convert Sql"
+    },
+    {
+        "command": "get_unicode_from_selection",
+        "caption": "Get Unicode From Selection"
+    },
+    {
+        "command": "close_all_no_save",
+        "caption": "Close All No Save"
+    },
+    {
+        "command": "copy_parent_folder_path",
+        "caption": "Copy Parent Folder Path"
+    },
+    {
+        "command": "select_text_from_clipboard",
+        "caption": "Select Text From Clipboard"
+    },
+    {
+        "command": "open_files_from_clipboard",
+        "caption": "Open Files From Clipboard"
+    },
+    {
+        "command": "paste_with_commas",
+        "caption": "Paste With Commas"
+    },
+    {
+        "command": "paste_with_commas",
+        "caption": "Paste With Commas [No Quotes]",
+        "args": {"wrap_quotes": false}
+    },
+    {
+        "command": "paste_with_commas",
+        "caption": "Paste With Commas [New Line]",
+        "args": {"new_line": true}
+    },
+    {
+        "command": "dict_search",
+        "caption": "Dict Search"
+    },
+    {
+        "command": "normalize_field_name",
+        "caption": "Normalize Field Name"
+    },
+    {
+        "command": "show_log_tortoise_svn",
+        "caption": "Show Log Tortoise Svn"
+    },
+    {
+        "command": "amap_new_entity",
+        "caption": "Amap New Entity"
+    },
+    {
+        "command": "find_duplicated_lines",
+        "caption": "Find Duplicated Lines"
+    },
+    {
+        "command": "side_bar_open_all",
+        "caption": "Side Bar Open All"
+    },
+    {
+        "command": "copy_files",
+        "caption": "Copy Files"
+    },
+    {
+        "command": "remove_files",
+        "caption": "Remove Files"
+    },
+    {
+        "command": "subtract_lines_in_view",
+        "caption": "Subtract Lines In View"
+    },
+    {
+        "command": "subtract_lines_with_next_tab",
+        "caption": "Subtract Lines With Next Tab"
+    },
+    {
+        "command": "amap_clear_server",
+        "caption": "Amap Clear Server"
+    },
+    {
+        "command": "unit_tests",
+        "caption": "Unit Tests"
+    },
+    {
+        "command": "separate_variable",
+        "caption": "Separate Variable"
+    },
+    {
+        "command": "alignment",
+        "caption": "Alignment"
+    },
+    {
+        "command": "generate_java_getters",
+        "caption": "Generate Java Getters"
+    },
+    {
+        "command": "toggle_eachline_comment",
+        "caption": "Toggle Eachline Comment"
+    },
+    {
+        "command": "unindent_resursive",
+        "caption": "Unindent Resursive [TABS]",
+        "args": {"tabs": "True"}
+    },
+    {
+        "command": "unindent_resursive",
+        "caption": "Unindent Resursive [SPACES]",
+        "args": {"tabs": "False"}
+    },
+    {
+        "command": "get_method_call_signature",
+        "caption": "Get Method Call Signature"
+    },
+    {
+        "command": "list_projects", 
+        "caption": "List Projects"
+    },
+    {
+        "command": "prompt_select_workspace", 
+        "caption": "Quick Switch Project…"
+    },
+    {
+        "caption": "AMAP New Service",
+        "command": "amap_new_service",
+    },
+    {
+        "caption": "AMAP New Domain",
+        "command": "amap_new_domain",
+    },
+    {
+        "caption": "Join with Comma",
+        "command": "run_macro_file", 
+        "args": {"file": "Packages/user-macros/join-comma.sublime-macro"}
+    },
+    {
+        "caption": "AMAP New Service Method [FULL]",
+        "command": "amap_new_service_method",
+    },
+    {
+        "caption": "AMAP New Service Method [SERVICE]",
+        "command": "amap_new_service_method",
+        "args": {"layer_type": "service"}
+    },
+    {
+        "caption": "AMAP New Service Method [DAO]",
+        "command": "amap_new_service_method",
+        "args": {"layer_type": "dao"}
+    },
+    {
+        "caption": "Reopen UTF8",
+        "command": "reopen", 
+        "args": {"encoding": "utf-8" }
+    },
+    {
+        "caption": "Reopen UTF16-LE",
+        "command": "reopen", 
+        "args": {"encoding": "utf-16 le" }
+    },
+    {
+        "caption": "Reopen Hexadecimal",
+        "command": "reopen", 
+        "args": {"encoding": "Hexadecimal" }
+    },
+    {
+        "caption": "Fix Tab Indents",
+        "command": "fix_tab_indents",
+    },
+    {
+        "caption": "Convert to UTF8",
+        "command": "toutf8from_best_guess",
+    },
+    {
+        "caption": "indent_one",
+        "command": "indent_one",
+    },
+    {
+        "caption": "Generate Lines",
+        "command": "generate_lines",
+    },
+    {
+        "caption": "Create Folders From Selection",
+        "command": "create_folders_from_selection",
+    },
+    {
+        "caption": "Open All Files in Folder",
+        "command": "open_all_files",
+    },
+    {
+        "caption": "Open All Files in Project",
+        "command": "open_all_files_in_project",
+    },
+    {
+        "caption": "Reg Replace: Remove Trailing Spaces",
+        "command": "reg_replace",
+        "args": {"replacements": ["remove_trailing_spaces"]}
+    },
+    {
+        "caption": "Fix Rus Names",
+        "command": "fix_rus_names"
+    },
+    {
+        "caption": "Fix Rus Folders",
+        "command": "fix_rus_folders",
+        "args": {"folder": ""}
+    },
+    {
+        "caption": "Replace String in Files",
+        "command": "replace_string_in_files"
+    },
+    {
+        "caption": "Format Path",
+        "command": "format_path"
+    },
+    {
+        "caption": "Invert Path Separator",
+        "command": "invert_path_separator"
+    },
+    {
+        "caption": "Wrap URLs",
+        "command": "wrap_urls"
+    },
+    {
+        "caption": "Format Android URL",
+        "command": "format_android_url"
+    },
+    {
+        "caption": "URL from Title",
+        "command": "url_from_title"
+    },
+    {
+        "caption": "Rename Files From Selection",
+        "command": "rename_files_from_selection"
+    },
+    {
+        "caption": "Find String in Files",
+        "command": "find_string_in_files"
+    },
+]

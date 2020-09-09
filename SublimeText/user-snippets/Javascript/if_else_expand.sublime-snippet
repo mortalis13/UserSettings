@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+if($0){
+  
+}
+else{
+  
+}]]></content>
+  <tabTrigger>ifee</tabTrigger>
+</snippet>

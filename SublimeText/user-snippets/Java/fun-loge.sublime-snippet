@@ -1,0 +1,5 @@
+<snippet>
+  <content><![CDATA[Fun.loge("$0");]]></content>
+  <tabTrigger>floge</tabTrigger>
+  <scope>source.java</scope>
+</snippet>

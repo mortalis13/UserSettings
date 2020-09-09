@@ -1,0 +1,32 @@
+[
+    
+    {
+      "id": "tools",
+      "children":
+      [
+        { "caption": "-", "id": "end" },
+        { "command": "open_file", "args": {"file": "${packages}/User/test.py"}, "caption": "__Test Plugin__" },
+      ]
+    },
+    
+    {
+        "caption": "Preferences",
+        "mnemonic": "n",
+        "id": "preferences",
+        "children":
+        [
+            { "caption": "-" },
+            { "command": "open_file", "args": {"file": "${packages}/Default/Preferences.sublime-settings"}, "caption": "Settings - Default" },
+            { "command": "open_file", "args": {"file": "${packages}/Default/Default (Windows).sublime-keymap"}, "caption": "Keys - Default" },
+            { "command": "open_file", "args": {"file": "${packages}/Default/Main.sublime-menu"}, "caption": "Menu - Default" },
+            { "command": "open_file", "args": {"file": "${packages}/Default/Default.sublime-commands"}, "caption": "Commands - Default" },
+            { "caption": "-" },
+            { "command": "open_file", "args": {"file": "${packages}/User/Preferences.sublime-settings"}, "caption": "[Settings - User]" },
+            { "command": "open_file", "args": {"file": "${packages}/User/Default (Windows).sublime-keymap"}, "caption": "[Keys - User]" },
+            { "command": "open_file", "args": {"file": "${packages}/User/Main.sublime-menu"}, "caption": "[Menu - User]" },
+            { "command": "open_file", "args": {"file": "${packages}/User/Default.sublime-commands"}, "caption": "[Commands - User]" },
+            { "caption": "-" }
+        ]
+    },
+    
+]

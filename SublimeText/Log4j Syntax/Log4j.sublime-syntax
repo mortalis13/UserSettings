@@ -1,0 +1,36 @@
+%YAML 1.2
+---
+name: Log4j
+file_extensions:
+  - log
+scope: source.log
+contexts:
+  main:
+    # - match: \b(ERROR|WARN|DEBUG|INFO)\b
+    #   scope: keyword.log
+      
+    - match: \bTRACE\b
+      scope: priority.trace.log
+      
+    - match: \bDEBUG\b
+      scope: priority.debug.log
+      
+    - match: \bINFO\b
+      scope: priority.info.log
+      
+    - match: \bWARN\b
+      scope: priority.warn.log
+      
+    - match: \bERROR\b
+      scope: priority.error.log
+      
+    - match: \bFATAL\b
+      scope: priority.fatal.log
+
+
+    - match: "^([\\w\\.]+Exception): "
+      captures:
+        1: type.exception.header.log
+
+    - match: ^[ \t]+at .+$
+      scope: type.exception.stack.log

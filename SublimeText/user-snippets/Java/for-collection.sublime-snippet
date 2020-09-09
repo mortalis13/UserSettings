@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[for (${1:String} ${2:item}: ${3:list}) {
+  $4
+}]]></content>
+  <tabTrigger>forc</tabTrigger>
+  <scope>source.java</scope>
+</snippet>

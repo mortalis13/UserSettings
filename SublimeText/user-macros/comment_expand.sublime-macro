@@ -1,0 +1,21 @@
+[
+  {
+    "command": "expand_selection", "args": {"to": "line"},
+  },
+  {
+    "args":
+    {
+      "by": "characters",
+      "extend": true,
+      "forward": false
+    },
+    "command": "move"
+  },
+	{
+		"args":
+		{
+			"block": false
+		},
+		"command": "toggle_comment"
+	}
+]

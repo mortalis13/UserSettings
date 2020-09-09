@@ -1,0 +1,5 @@
+<snippet>
+  <content><![CDATA[model.addAttribute("$0", $0);]]></content>
+  <tabTrigger>ma</tabTrigger>
+  <scope>source.java</scope>
+</snippet>

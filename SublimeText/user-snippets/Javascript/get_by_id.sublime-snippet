@@ -1,0 +1,4 @@
+<snippet>
+	<content><![CDATA[getElementById('$0')]]></content>
+	<tabTrigger>gid</tabTrigger>
+</snippet>

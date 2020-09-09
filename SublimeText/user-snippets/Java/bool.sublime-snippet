@@ -1,0 +1,5 @@
+<snippet>
+  <content><![CDATA[boolean]]></content>
+  <tabTrigger>bo</tabTrigger>
+  <scope>source.java</scope>
+</snippet>

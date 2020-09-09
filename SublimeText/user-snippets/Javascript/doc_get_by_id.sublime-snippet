@@ -1,0 +1,4 @@
+<snippet>
+	<content><![CDATA[document.getElementById('$0')]]></content>
+	<tabTrigger>dgid</tabTrigger>
+</snippet>

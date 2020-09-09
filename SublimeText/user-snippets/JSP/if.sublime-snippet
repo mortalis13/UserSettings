@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<c:if test="\$\{${1:condition}\}">
+	$2
+</c:if>]]></content>
+	<tabTrigger>cif</tabTrigger>
+	<scope>text.html,text.html.jsp</scope>
+	<description>JSP/JSTL if</description>
+</snippet>

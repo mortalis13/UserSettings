@@ -1,0 +1,5 @@
+<snippet>
+  <content><![CDATA[writeln('$0: ' + $0);]]></content>
+  <tabTrigger>wre</tabTrigger>
+  <scope>source.pascal</scope>
+</snippet>

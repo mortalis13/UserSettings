@@ -1,0 +1,5 @@
+<snippet>
+  <content><![CDATA[writeln('$0: ' + IntToStr($0));]]></content>
+  <tabTrigger>wri</tabTrigger>
+  <scope>source.pascal</scope>
+</snippet>

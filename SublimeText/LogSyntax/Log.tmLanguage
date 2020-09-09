@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>fileTypes</key>
+  <array>
+    <string>log</string>
+  </array>
+  <key>name</key>
+  <string>Log</string>
+  <key>patterns</key>
+  
+  <array>
+    <dict>
+      <key>captures</key>
+      <dict>
+        <key>2</key>
+        <dict>
+          <key>name</key>
+          <string>error.log</string>
+        </dict>
+      </dict>
+      <key>comment</key>
+      <string>ERROR log</string>
+      <key>match</key>
+      <string>^(.+)\b(ERROR!?: )(.+)$</string>
+      <key>name</key>
+      <string>text.log</string>
+    </dict>
+    
+    <dict>
+      <key>captures</key>
+      <dict>
+        <key>2</key>
+        <dict>
+          <key>name</key>
+          <string>warning.log</string>
+        </dict>
+      </dict>
+      <key>comment</key>
+      <string>WARNING log</string>
+      <key>match</key>
+      <string>^(.+)\b(WARNING: )(.+)$</string>
+      <key>name</key>
+      <string>text.log</string>
+    </dict>
+    
+    <dict>
+      <key>captures</key>
+      <dict>
+        <key>2</key>
+        <dict>
+          <key>name</key>
+          <string>info.log</string>
+        </dict>
+      </dict>
+      <key>comment</key>
+      <string>INFO log</string>
+      <key>match</key>
+      <string>^(.+)\b(INFO: )(.+)$</string>
+      <key>name</key>
+      <string>text.log</string>
+    </dict>
+  </array>
+  
+  <key>scopeName</key>
+  <string>text.log</string>
+  <key>uuid</key>
+  <string>59d2eab0-506c-4c33-8e2f-a6a74820383a</string>
+</dict>
+</plist>

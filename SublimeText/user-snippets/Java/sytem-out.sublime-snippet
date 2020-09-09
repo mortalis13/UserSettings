@@ -1,0 +1,5 @@
+<snippet>
+  <content><![CDATA[System.out.println($0);]]></content>
+  <tabTrigger>sout</tabTrigger>
+  <scope>source.java</scope>
+</snippet>

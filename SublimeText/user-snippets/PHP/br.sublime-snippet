@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA['<br>']]></content>
+	<tabTrigger>br</tabTrigger>
+	<scope>embedding.php text.html.basic</scope>
+</snippet>

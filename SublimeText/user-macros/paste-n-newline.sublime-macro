@@ -1,0 +1,10 @@
+[
+	{
+		"args": null,
+		"command": "paste"
+	},
+	{
+		"args": {"file": "res://Packages/Default/Add Line.sublime-macro"},
+		"command": "run_macro_file"
+	}
+]

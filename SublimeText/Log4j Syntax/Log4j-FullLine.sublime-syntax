@@ -1,0 +1,29 @@
+%YAML 1.2
+---
+name: Log4j-FullLine
+file_extensions:
+  - log-full
+scope: source.log-full
+contexts:
+  main:
+    - match: ^.+DEBUG.+$
+      scope: priority.debug.log-full
+      
+    - match: ^.+INFO.+$
+      scope: priority.info.log-full
+      
+    - match: ^.+WARN.+$
+      scope: priority.warn.log-full
+      
+    - match: ^.+ERROR.+$
+      scope: priority.error.log-full
+      
+    - match: ^.+FATAL.+$
+      scope: priority.fatal.log-full
+    
+      
+    - match: "^[\\w\\.]+Exception: .+$"
+      scope: type.exception.header.log
+      
+    - match: ^\t+at .+$
+      scope: type.exception.stack.log

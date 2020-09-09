@@ -1,0 +1,13 @@
+[
+  // { "button": "scroll_up", "modifiers": ["ctrl"], "command": "scroll_lines", "args": {"amount": 50.0 } },
+  // { "button": "scroll_down", "modifiers": ["ctrl"], "command": "scroll_lines", "args": {"amount": -50.0 } },
+  
+  // { "button": "scroll_up", "modifiers": ["ctrl"], "command": "scroll_page_up" },
+  // { "button": "scroll_down", "modifiers": ["ctrl"], "command": "scroll_page_down" },
+  
+  // { "button": "scroll_up", "modifiers": ["ctrl"], "command": "scroll_view", "args": {"amount": 50.0} },
+  // { "button": "scroll_down", "modifiers": ["ctrl"], "command": "scroll_view", "args": {"amount": -50.0} },
+  
+  { "button": "scroll_up", "modifiers": ["ctrl"], "command": "scroll_lines_fixed", "args": {"by": "pages", "amount": 1.0 } },
+  { "button": "scroll_down", "modifiers": ["ctrl"], "command": "scroll_lines_fixed", "args": {"by": "pages", "amount": -1.0 } },
+]

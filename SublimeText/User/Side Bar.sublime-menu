@@ -1,0 +1,5 @@
+[
+  { "caption": "Open All [c]", "id": "side-bar-open-all", "command": "side_bar_open_all", "args": {"paths": []} },
+  { "caption": "Open Folder [c]", "id": "side-bar-open-all", "command": "side_bar_open_all", "args": {"paths": [], "recursive": false} },
+  // { "caption": "-", "id": "side-bar-separator-1" },
+]

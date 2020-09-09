@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>name</key>
+  <string>Log4jTheme</string>
+  <!-- 
+  <string>
+    Log4j hilights. Copy the relevant nodes into your current theme. Let me know if there is an easier way to override this!
+    log4j levels: TRACE, DEBUG, INFO, WARN, ERROR, FATAL
+  </string> -->
+  <key>settings</key>
+  <array>
+    <dict>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#22282A</string>
+        <key>caret</key>
+        <string>#AEAFAD</string>
+        <key>foreground</key>
+        <string>#F1F2F3</string>
+        <key>invisibles</key>
+        <string>#4B4E55</string>
+        <key>lineHighlight</key>
+        <string>#282A2E</string>
+        <key>selection</key>
+        <string>#4F6164</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Log4j Priority</string>
+      <key>scope</key>
+      <string>priority.log</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#ff0000</string>
+      </dict>
+    </dict>
+  </array>
+  <!-- end: log4j -->
+  <key>uuid</key>
+  <string>F96223EB-1AAB-4617-92F3-FA4D4F13DB0A</string>
+</dict>
+</plist>

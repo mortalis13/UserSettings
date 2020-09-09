@@ -1,0 +1,5 @@
+<snippet>
+  <content><![CDATA[private static final Logger LOGGER = LoggerFactory.getLogger($0.class);]]></content>
+  <tabTrigger>logg</tabTrigger>
+  <scope>source.java</scope>
+</snippet>

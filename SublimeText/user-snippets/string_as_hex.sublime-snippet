@@ -1,0 +1,4 @@
+<snippet>
+  <content><![CDATA[[hex(ord(c)) for c in '$0']]]></content>
+  <tabTrigger>sah</tabTrigger>
+</snippet>

@@ -1,0 +1,21 @@
+[
+	{
+		"args":
+		{
+			"extend": false,
+			"to": "bol"
+		},
+		"command": "move_to"
+	},
+	{
+		"args":
+		{
+			"characters": "<a>"
+		},
+		"command": "insert"
+	},
+	{
+		"args": null,
+		"command": "single_selection"
+	}
+]

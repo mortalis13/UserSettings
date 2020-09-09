@@ -1,0 +1,5 @@
+<snippet>
+  <content><![CDATA[Boolean;]]></content>
+  <tabTrigger>bo</tabTrigger>
+  <scope>source.pascal</scope>
+</snippet>

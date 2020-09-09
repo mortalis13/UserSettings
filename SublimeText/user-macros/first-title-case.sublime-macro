@@ -1,0 +1,14 @@
+[
+  {
+    "args":
+    {
+      "by": "lines",
+      "forward": true
+    },
+    "command": "move"
+  },
+	{
+		"args": null,
+		"command": "title_case"
+	}
+]

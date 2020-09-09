@@ -1,0 +1,5 @@
+<snippet>
+  <content><![CDATA[List<$0>]]></content>
+  <tabTrigger>ls</tabTrigger>
+  <scope>source.java</scope>
+</snippet>

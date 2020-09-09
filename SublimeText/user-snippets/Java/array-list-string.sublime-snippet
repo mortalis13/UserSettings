@@ -1,0 +1,5 @@
+<snippet>
+  <content><![CDATA[ArrayList<String> ]]></content>
+  <tabTrigger>als</tabTrigger>
+  <scope>source.java</scope>
+</snippet>

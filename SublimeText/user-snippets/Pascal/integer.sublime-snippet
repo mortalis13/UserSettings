@@ -1,0 +1,5 @@
+<snippet>
+  <content><![CDATA[Integer;]]></content>
+  <tabTrigger>ig</tabTrigger>
+  <scope>source.pascal</scope>
+</snippet>

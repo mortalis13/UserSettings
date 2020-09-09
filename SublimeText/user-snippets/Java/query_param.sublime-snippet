@@ -1,0 +1,5 @@
+<snippet>
+  <content><![CDATA[query.setParameter("$1", $1);]]></content>
+  <tabTrigger>qsp</tabTrigger>
+  <scope>source.java</scope>
+</snippet>

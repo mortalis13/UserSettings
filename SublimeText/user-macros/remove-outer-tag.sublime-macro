@@ -1,0 +1,24 @@
+[
+	{
+		"args":
+		{
+			"to": "tag"
+		},
+		"command": "expand_selection"
+	},
+	{
+		"args": null,
+		"command": "copy"
+	},
+	{
+		"args":
+		{
+			"to": "tag"
+		},
+		"command": "expand_selection"
+	},
+	{
+		"args": null,
+		"command": "paste"
+	}
+]

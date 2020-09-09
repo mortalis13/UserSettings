@@ -1,0 +1,24 @@
+<!-- === Log === -->
+<dict>
+  <key>name</key>
+  <string>Log Error</string>
+  <key>scope</key>
+  <string>error.log</string>
+  <key>settings</key>
+  <dict>
+    <key>foreground</key>
+    <string>#f45454</string>
+  </dict>
+</dict>
+
+<dict>
+  <key>name</key>
+  <string>Log Warning</string>
+  <key>scope</key>
+  <string>warning.log</string>
+  <key>settings</key>
+  <dict>
+    <key>foreground</key>
+    <string>#ffb879</string>
+  </dict>
+</dict>
