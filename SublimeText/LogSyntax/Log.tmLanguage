@@ -23,7 +23,8 @@
       <key>comment</key>
       <string>ERROR log</string>
       <key>match</key>
-      <string>^(.+)\b(ERROR!?: )(.+)$</string>
+      <!-- <string>^(.+)\b(ERROR!?: )(.+)$</string> -->
+      <string>^(.+)(\bERROR!?|\[ERROR\]): (.+)$</string>
       <key>name</key>
       <string>text.log</string>
     </dict>
@@ -40,7 +41,8 @@
       <key>comment</key>
       <string>WARNING log</string>
       <key>match</key>
-      <string>^(.+)\b(WARNING: )(.+)$</string>
+      <!-- <string>^(.+)\b(WARNING: )(.+)$</string> -->
+      <string>^(.+)(\bWARNING|\[WARNING\]|\bWARN|\[WARN\]): (.+)$</string>
       <key>name</key>
       <string>text.log</string>
     </dict>
@@ -57,7 +59,8 @@
       <key>comment</key>
       <string>INFO log</string>
       <key>match</key>
-      <string>^(.+)\b(INFO: )(.+)$</string>
+      <!-- <string>^(.+)\b(INFO: )(.+)$</string> -->
+      <string>^(.+)(\bINFO|\[INFO\]): (.+)$</string>
       <key>name</key>
       <string>text.log</string>
     </dict>

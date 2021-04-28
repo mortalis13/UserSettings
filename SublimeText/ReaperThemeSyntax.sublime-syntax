@@ -1,0 +1,9 @@
+%YAML 1.2
+---
+name: ReaperTheme
+scope: source.reaper
+
+contexts:
+  main:
+    - match: ;.+
+      scope: comment.reaper
