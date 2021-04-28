@@ -5,5 +5,5 @@ scope: source.reaper
 
 contexts:
   main:
-    - match: ;.+
+    - match: ;.*
       scope: comment.reaper
