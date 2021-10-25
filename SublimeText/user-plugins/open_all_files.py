@@ -4,7 +4,7 @@
 import sublime, sublime_plugin
 import os, re, codecs
 
-from .modules.file_system_functions import *
+from user_modules.file_system_functions import *
 
 
 class OpenAllFilesCommand(sublime_plugin.WindowCommand):

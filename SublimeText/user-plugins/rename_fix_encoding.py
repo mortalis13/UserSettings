@@ -4,7 +4,7 @@
 import sublime, sublime_plugin
 import os
 
-from .modules.file_system_functions import *
+from user_modules.file_system_functions import *
 
 
 class RenameFixEncodingCommand(sublime_plugin.WindowCommand):

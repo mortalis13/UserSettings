@@ -4,8 +4,8 @@
 import sublime, sublime_plugin
 import os, re, codecs
 
-from .modules.file_system_functions import *
-from .modules.general_functions import *
+from user_modules.file_system_functions import *
+from user_modules.general_functions import *
 
   
 class RenameFilesFromSelectionCommand(sublime_plugin.WindowCommand):

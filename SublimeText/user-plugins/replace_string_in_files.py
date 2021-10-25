@@ -5,7 +5,7 @@ import sublime, sublime_plugin
 import os, re, codecs
 import shutil, stat, errno, sys, ssl
 
-from .modules.file_system_functions import *
+from user_modules.file_system_functions import *
 
 
 class ReplaceStringInFilesCommand(sublime_plugin.WindowCommand):

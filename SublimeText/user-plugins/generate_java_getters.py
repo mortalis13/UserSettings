@@ -5,8 +5,8 @@ import sublime, sublime_plugin
 import re
 import shutil, stat, errno, sys, traceback
 
-from .modules.general_functions import *
-from .modules.file_system_functions import *
+from user_modules.general_functions import *
+from user_modules.file_system_functions import *
 
 
 setterTemplate = """

@@ -2,7 +2,7 @@ import sublime, sublime_plugin
 import os, re, codecs, subprocess
 import shutil, stat, errno, sys
 
-from .modules.general_functions import *
+from user_modules.general_functions import *
 
 
 def re_camel_func(match):

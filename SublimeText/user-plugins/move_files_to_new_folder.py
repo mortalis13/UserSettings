@@ -5,7 +5,7 @@
 import sublime, sublime_plugin
 import os, re, sys
 
-from .modules.file_system_functions import *
+from user_modules.file_system_functions import *
 
 
 class MoveFilesToNewFolderCommand(sublime_plugin.TextCommand):

@@ -1,7 +1,7 @@
 
-from ..modules.file_system_functions import *
+from user_modules.file_system_functions import *
 
-root_dir = 'c:/1-Datos/Docs/otro'
+root_dir = 'c:/user_modules'
 ext = 'htm'
 exclude_dirs = [
   'backups',
