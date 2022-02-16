@@ -1,0 +1,118 @@
+[
+    {
+        "caption": "Checkout Commit",
+        "command": "checkout_branch", "args": {"branch": "$commit"}
+    },
+    {
+        "caption": "Create Branch at Commit",
+        "command": "show_command_palette", "args":
+        {
+            "command": "create_branch",
+            "args": { "from": "$commit" },
+        }
+    },
+    {
+        "caption": "Create Tag at Commit",
+        "command": "show_command_palette",
+        "args":
+        {
+            "command": "create_tag",
+            "args": { "commit": "$commit" },
+        },
+    },
+    
+    { "caption": "-" },
+    { "command": "cherry_pick" },
+    { "command": "revert_commit" },
+    {
+        "caption": "Edit Commit Contents",
+        "command": "edit_commit_contents",
+        "args": { "commit": "$commit" },
+    },
+    {
+        "caption": "Squash Selected Commits",
+        "command": "squash_commits",
+    },
+    {
+        "caption": "Squash Selected Commits, ignoring new messages (fixup)",
+        "command": "fixup_commits",
+    },
+    {
+        "caption": "Drop Selected Commits",
+        "command": "drop_commits",
+    },
+    { "caption": "-" },
+    
+    {
+        "command": "hide_all_commit_refs",
+        "args": {"commit": "$commit"}
+    },
+    {
+        "command": "hide_all_refs_except_refs_at_commit",
+        "args": {"commit": "$commit"}
+    },
+    {
+        "caption": "Show All Hidden Branches",
+        "command": "show_all_refs"
+    },
+    {
+        "command": "rebase_branch",
+        "args": {"commit": "$commit"}
+    },
+    {
+        "caption": "Reset $head_ref to This Commit",
+        "id": "reset",
+        "children":
+        [
+            {
+                "caption": "Soft - Keep index and working directory, differences will show as staged",
+                "command": "reset",
+                "args": {"commit": "$commit", "mode": "soft"}
+            },
+            {
+
+                "caption": "Mixed (Default) - Keep working directory, differences will show as modifications",
+                "command": "reset",
+                "args": {"commit": "$commit", "mode": "mixed"}
+            },
+            {
+                "caption": "Hard - Reset index and working directory, ALL local changes are discarded",
+                "command": "reset",
+                "args": {"commit": "$commit", "mode": "hard"}
+            },
+        ]
+    },
+    
+    { "caption": "-" },
+    {
+        "caption": "Copy '$short_commit…'",
+        "command": "copy_to_clipboard",
+        "args": {"text": "$commit"}
+    },
+    {
+        "caption": "Other",
+        "id": "other",
+        "children":
+        [
+            {
+                "caption": "Move Commit Up",
+                "command": "move_commit",
+                "args": { "commit": "$commit", "down": false },
+            },
+            {
+                "caption": "Move Commit Down",
+                "command": "move_commit",
+                "args": { "commit": "$commit", "down": true },
+            },
+            {
+                "caption": "Cherry Pick...",
+                "command": "show_command_palette",
+                "args":
+                {
+                    "command": "cherry_pick",
+                }
+            },
+        ]
+    },
+    { "caption": "-", "id": "end" }
+]

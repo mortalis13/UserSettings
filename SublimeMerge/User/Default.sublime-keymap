@@ -1,0 +1,27 @@
+[
+    // [alias]
+    // # pull the master and checkout the active branch
+    // pm = !git checkout master && git pull && git checkout @{-1}
+    {"keys": ["ctrl+alt+shift+down"], "command": "git", "args": {"argv": ["pm"]}},
+    
+    {"keys": ["ctrl+alt+shift+up"], "command": "git", "args": {"argv": ["push", "--force"]}},
+    
+    {"keys": ["ctrl+shift+enter"], "command": "git", "args": {"argv": ["commit", "-q", "--amend"]}},
+    
+    {"keys": ["ctrl+alt+shift+c"], "command": "git", "args": {"argv": ["cherry-pick", "--no-commit", "$commit"]}},
+    
+    // Default Override
+    { "keys": ["ctrl+shift+c"], "command": "cherry_pick" },
+    { "keys": ["ctrl+shift+a"], "command": "stage_all" },
+    { "keys": ["ctrl+shift+b"], "command": "show_command_palette", "args": {"command": "create_branch", "args": { "from": "$commit" }} },
+    
+    { "keys": ["ctrl+keypad_enter"], "command": "commit", "args": { "mode": "commit" },
+        "context": [{ "key": "setting.commit_message" }, { "key": "can_commit" }]
+    },
+    { "keys": ["ctrl+keypad_enter"], "command": "edit_commit",
+        "context": [{ "key": "setting.commit_message" }, { "key": "read_only" }]
+    },
+    { "keys": ["ctrl+keypad_enter"], "command": "save_commit_message",
+        "context": [{ "key": "setting.commit_message" }, { "key": "is_editing_commit" }]
+    },
+]
