@@ -20,8 +20,8 @@
             "args": { "commit": "$commit" },
         },
     },
-    
     { "caption": "-" },
+    
     { "command": "cherry_pick" },
     { "command": "revert_commit" },
     {
@@ -43,22 +43,6 @@
     },
     { "caption": "-" },
     
-    {
-        "command": "hide_all_commit_refs",
-        "args": {"commit": "$commit"}
-    },
-    {
-        "command": "hide_all_refs_except_refs_at_commit",
-        "args": {"commit": "$commit"}
-    },
-    {
-        "caption": "Show All Hidden Branches",
-        "command": "show_all_refs"
-    },
-    {
-        "command": "rebase_branch",
-        "args": {"commit": "$commit"}
-    },
     {
         "caption": "Reset $head_ref to This Commit",
         "id": "reset",
@@ -82,8 +66,12 @@
             },
         ]
     },
-    
+    {
+        "command": "create_patch",
+        "args": { "from": "$last_selected_commit", "commit": "$commit" },
+    },
     { "caption": "-" },
+    
     {
         "caption": "Copy '$short_commit…'",
         "command": "copy_to_clipboard",

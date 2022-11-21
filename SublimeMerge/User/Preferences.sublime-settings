@@ -3,11 +3,19 @@
     "diff_style": "side-by-side",
     "hide_menu": false,
     "themed_title_bar": true,
+    "added_words":
+    [
+        "dropbox"
+    ],
     "update_check": false,
     "show_tab_close_buttons": false,
     
     "theme": "Norber.sublime-theme",
     "color_scheme": "NorberMonokai.sublime-color-scheme",
+    
+    // "theme": "Merge.sublime-theme",
+    // "theme": "Merge Dark.sublime-theme",
+    // "color_scheme": "Mariana.sublime-color-scheme",
     
     "always_show_command_status": true,
 }

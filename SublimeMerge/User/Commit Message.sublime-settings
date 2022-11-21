@@ -1,7 +1,4 @@
 {
-	"rulers":
-	[
-		-1
-	],
-	"spell_check": false,
+    "rulers": [-1],
+    "spell_check": false,
 }
