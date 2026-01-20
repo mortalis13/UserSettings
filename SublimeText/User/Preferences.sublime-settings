@@ -1,128 +1,132 @@
 {
-	"added_words":
-	[
-		"plugin",
-		"dropdown",
-		"subfolders",
-		"subfolder",
-		"txt",
-		"html",
-		"json",
-		"js",
-		"sql",
-		"checkbox"
-	],
-	"always_show_minimap_viewport": true,
-	"animation_enabled": false,
-	"auto_close_tags": false,
-	"auto_complete": false,
-	"auto_complete_cycle": true,
-	"auto_id_class": true,
-	"auto_match_enabled": false,
-	"caret_extra_bottom": 2,
-	"caret_extra_top": 2,
-	"caret_extra_width": 1,
-	"caret_style": "smooth",
-	"close_windows_when_empty": false,
-	"color_scheme": "Packages/Norber Theme/NorberMonokai.tmTheme",
-	"detect_indentation": false,
-	"enable_hexadecimal_encoding": false,
-	"enable_tab_scrolling": false,
-	"enable_telemetry": "disabled",
-	"fade_fold_buttons": false,
-	"file_exclude_patterns":
-	[
-		"*.pyc",
-		"*.pyo",
-		"*.exe",
-		"*.dll",
-		"*.obj",
-		"*.o",
-		"*.a",
-		"*.lib",
-		"*.so",
-		"*.so.*",
-		"*.dylib",
-		"*.ncb",
-		"*.sdf",
-		"*.suo",
-		"*.pdb",
-		"*.idb",
-		".DS_Store",
-		"*.class",
-		"*.psd",
-		"*.db",
-		"*.pch",
-		"*.sublime-workspace"
-	],
-	"folder_exclude_patterns":
-	[
-		"bin",
-		".svn",
-		".git",
-		".hg",
-		"CVS",
-		"target",
-		".settings",
-		".gradle",
-		".idea",
-		"build",
-		"node_modules",
-		".vs"
-	],
-	"font_options":
-	[
-		"subpixel_antialias"
-	],
-	"font_size": 13,
-	"highlight_line": true,
-	"hot_exit": true,
-	"ignored_packages":
-	[
-		"HTMLBeautify",
-		"jQuery",
-		"Unicode Character Highlighter",
-		"Vintage"
-	],
-	"indent_guide_options":
-	[
-		"draw_normal"
-	],
-	"index_exclude_patterns":
-	[
-		"*.log",
-		".git"
-	],
-	"index_files": true,
-	"line_padding_bottom": 1,
-	"line_padding_top": 1,
-	"margin": 0,
-	"match_brackets": true,
-	"match_brackets_angle": false,
-	"match_brackets_braces": true,
-	"match_brackets_content": true,
-	"match_brackets_square": true,
-	"preview_on_click": false,
-	"rulers":
-	[
-	],
-	"scroll_past_end": false,
-	"scroll_speed": 50,
-	"shift_tab_unindent": true,
-	"show_definitions": false,
-	"show_encoding": true,
-	"show_line_endings": true,
-	"show_tab_close_buttons": false,
-	"sublime_merge_path": "d:/Program Files/Sublime Merge/sublime_merge.exe",
-	"tab_size": 2,
-	"theme": "Norber.sublime-theme",
-	"theme_font_options":
-	[
-		"gdi"
-	],
-	"translate_tabs_to_spaces": true,
-	"tree_animation_enabled": false,
-	"trim_automatic_white_space": false,
-	"update_check": false,
-	"word_wrap": true
+  "added_words":
+  [
+    "plugin",
+    "dropdown",
+    "subfolders",
+    "subfolder",
+    "txt",
+    "html",
+    "json",
+    "js",
+    "sql",
+    "checkbox"
+  ],
+  "always_show_minimap_viewport": true,
+  "animation_enabled": false,
+  "auto_close_tags": false,
+  "auto_complete": false,
+  "auto_complete_cycle": true,
+  "auto_id_class": true,
+  "auto_match_enabled": false,
+  "caret_extra_bottom": 2,
+  "caret_extra_top": 2,
+  "caret_extra_width": 1,
+  "caret_style": "smooth",
+  "close_windows_when_empty": false,
+  "color_scheme": "Packages/Norber Theme/NorberMonokai.tmTheme",
+  "detect_indentation": false,
+  "enable_hexadecimal_encoding": false,
+  "enable_tab_scrolling": false,
+  "enable_telemetry": "disabled",
+  "fade_fold_buttons": false,
+  "file_exclude_patterns":
+  [
+    "*.pyc",
+    "*.pyo",
+    "*.exe",
+    "*.dll",
+    "*.obj",
+    "*.o",
+    "*.a",
+    "*.lib",
+    "*.so",
+    "*.so.*",
+    "*.dylib",
+    "*.ncb",
+    "*.sdf",
+    "*.suo",
+    "*.pdb",
+    "*.idb",
+    ".DS_Store",
+    "*.class",
+    "*.psd",
+    "*.db",
+    "*.pch",
+    "*.sublime-workspace",
+    ".coverage"
+  ],
+  "folder_exclude_patterns":
+  [
+    "bin",
+    ".svn",
+    ".git",
+    ".hg",
+    "CVS",
+    "target",
+    ".settings",
+    ".gradle",
+    ".idea",
+    "build",
+    "node_modules",
+    ".vs",
+    "dist",
+    "pg_data"
+  ],
+  "font_options":
+  [
+    "subpixel_antialias"
+  ],
+  "font_size": 13,
+  "highlight_line": true,
+  "hot_exit": true,
+  "ignored_packages":
+  [
+    "HTMLBeautify",
+    "jQuery",
+    "Unicode Character Highlighter",
+    "Vintage"
+  ],
+  "indent_guide_options":
+  [
+    "draw_normal"
+  ],
+  "index_exclude_patterns":
+  [
+    "*.log",
+    ".git"
+  ],
+  "index_files": true,
+  "line_padding_bottom": 1,
+  "line_padding_top": 1,
+  "margin": 0,
+  "match_brackets": true,
+  "match_brackets_angle": false,
+  "match_brackets_braces": true,
+  "match_brackets_content": true,
+  "match_brackets_square": true,
+  "preview_on_click": false,
+  "rulers":
+  [
+  ],
+  "scroll_past_end": false,
+  "scroll_speed": 50,
+  "shift_tab_unindent": true,
+  "show_definitions": false,
+  "show_encoding": true,
+  "show_line_endings": true,
+  "show_tab_close_buttons": false,
+  "sublime_merge_path": "d:/Program Files/Sublime Merge/sublime_merge.exe",
+  "tab_size": 2,
+  "theme": "Norber.sublime-theme",
+  "theme_font_options":
+  [
+    "gdi"
+  ],
+  "translate_tabs_to_spaces": true,
+  "tree_animation_enabled": false,
+  "trim_automatic_white_space": false,
+  "update_check": false,
+  "word_wrap": true,
+  "disable_plugin_host_3.3": true,
 }
