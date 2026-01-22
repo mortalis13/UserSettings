@@ -1,0 +1,7 @@
+[
+    {
+        "command": "delete_tag_on_remote",
+        "caption": "Delete Remote Tag",
+        "args": {"ref": "$ref", "remote": "$remote", "prompt": false}
+    }
+]

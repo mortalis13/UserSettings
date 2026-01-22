@@ -1,0 +1,20 @@
+[
+  { "command": "checkout_branch", "args": { "branch": "$branch" } },
+  { "command": "rebase_branch", "args": { "branch": "$branch", "commit": "$commit"} },
+  { "command": "delete_branch", "args": { "ref": "$ref", "prompt": false } },
+  { "caption": "-" },
+  {
+    "caption": "Copy $branch",
+    "command": "copy_to_clipboard",
+    "args": { "text": "$branch" }
+  },
+  {
+    "command": "show_command_palette",
+    "args":
+    {
+      "command": "rename_branch",
+      "args": {"branch": "$branch"},
+      "description": "Rename $branch…",
+    }
+  },
+]

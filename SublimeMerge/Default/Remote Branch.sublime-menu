@@ -1,0 +1,6 @@
+[
+	{ "command": "create_branch", "args": {"from": "$branch"} },
+	{ "command": "checkout_local_branch", "args": {"remote_branch": "$branch"} },
+	{ "command": "checkout_branch", "args": {"branch": "$branch"} },
+	{ "command": "rebase_branch", "args": {"branch": "$branch"} },
+]
