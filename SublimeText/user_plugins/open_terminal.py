@@ -12,10 +12,21 @@ import subprocess
 
 class OpenTerminalCommand(sublime_plugin.WindowCommand):
     def run(self, cmd):
-        data = self.window.project_data()
-        project_path = data['folders'][0]['path']
-        project_path = project_path.replace('\\', '/')
+        path = os.path.expanduser('~')
 
-        cmd = f'{cmd} {project_path}'
+        data = self.window.project_data()
+        if data:
+            project_path = data['folders'][0]['path']
+            path = project_path
+
+        else:
+            view = self.window.active_view()
+            if view and view.file_name():
+                path = os.path.dirname(view.file_name())
+                print(path)
+
+        path = path.replace('\\', '/')
+
+        cmd = f'{cmd} {path}'
         args = shlex.split(cmd)
-        subprocess.Popen(args, cwd=project_path)
+        subprocess.Popen(args, cwd=path)
